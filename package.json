@@ -1,0 +1,27 @@
+{
+  "name": "react-conditional-component",
+  "version": "0.1.0",
+  "description": "This component displays its children only if they satisfy their predicate",
+  "main": "react-conditional-component.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziad-saab/react-conditional-component.git"
+  },
+  "keywords": [
+    "facebook",
+    "react",
+    "conditional"
+  ],
+  "author": "Ziad Saab <ziad.saab@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziad-saab/react-conditional-component/issues"
+  },
+  "homepage": "https://github.com/ziad-saab/react-conditional-component",
+  "dependencies": {
+    "react": "~0.11.1"
+  }
+}

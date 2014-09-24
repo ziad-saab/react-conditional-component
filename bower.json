@@ -1,0 +1,22 @@
+{
+  "name": "react-conditional-component",
+  "version": "0.1.0",
+  "author": "Ziad Saab <ziad.saab@gmail.com>",
+  "description": "This component displays its children only if they satisfy their predicate",
+  "main": "react-conditional-component.jsx",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json"
+  ],
+  "keywords": [
+    "facebook",
+    "react",
+    "conditional"
+  ],
+  "dependencies": {
+    "react": "~0.11.1"
+  },
+  "license": "MIT"
+}
