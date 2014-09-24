@@ -59,6 +59,10 @@ var Demo = React.createClass({
 React.renderComponent(<Demo/>, document.body);
 ```
 
+## Predicates
+
+The available predicates are: `showIfDefined`,`showIfUndefined`,`showIfTrue`,`showIfTruthy`,`showIfFalse`,`showIfFalsy`,`showIfEquals`,`showIfStrictlyEquals`,`showIfLte`,`showIfLt`,`showIfGte`,`showIfGt`.
+
 ## License
 
 MIT.
