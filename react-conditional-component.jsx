@@ -4,8 +4,7 @@ module.exports = React.createClass({
   render: function() {
     var value = this.props.value;
     var shown = [];
-    var children = this.props.children instanceof Array ? this.props.children : [this.props.children];
-    children.forEach(function(child) {
+    React.Children.forEach(this.props.children, function(child) {
       var show = true;
       if (show && child.props.showIfDefined) {
         show = typeof value !== 'undefined';
