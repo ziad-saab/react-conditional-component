@@ -48,6 +48,6 @@ module.exports = React.createClass({
       }
     });
 
-    return <div>{shown}</div>;
+    return React.DOM.div(null, shown);
   }
 });
