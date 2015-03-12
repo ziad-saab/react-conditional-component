@@ -1,6 +1,6 @@
 {
   "name": "react-conditional-component",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Ziad Saab <ziad.saab@gmail.com>",
   "description": "This component displays its children only if they satisfy their predicate",
   "main": "react-conditional-component.jsx",
@@ -17,7 +17,7 @@
     "react-component"
   ],
   "dependencies": {
-    "react": "~0.11.1"
+    "react": "~0.12.0"
   },
   "license": "MIT"
 }
