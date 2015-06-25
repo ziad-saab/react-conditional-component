@@ -1,15 +1,17 @@
 /**
 * @jsx React.DOM
 */
+'use strict';
+
 var React = require('react');
 
 module.exports = React.createClass({
   displayName: 'ConditionalComponent',
-  render: function() {
-    let value = this.props.value;
-    let shown = [];
-    React.Children.forEach(this.props.children, function(child) {
-      let show = true;
+  render: function render() {
+    var value = this.props.value;
+    var shown = [];
+    React.Children.forEach(this.props.children, function (child) {
+      var show = true;
       if (show && child.props.showIfDefined) {
         show = typeof value !== 'undefined';
       }
@@ -52,6 +54,10 @@ module.exports = React.createClass({
       }
     });
 
-    return <div>{shown}</div>;
+    return React.createElement(
+      'div',
+      null,
+      shown
+    );
   }
 });
